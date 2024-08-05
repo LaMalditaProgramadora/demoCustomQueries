@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "282d1377-5552-4386-8eb1-c55b4ee5117b",
+		"name": "Pets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23264409"
+	},
+	"item": [
+		{
+			"name": "countPetsByOwnerNativeQuery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/countPetsByOwnerNativeQuery",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countPetsByOwnerNativeQuery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countPetsByOwnerJPQL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/countPetsByOwnerJPQL",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"countPetsByOwnerJPQL"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
